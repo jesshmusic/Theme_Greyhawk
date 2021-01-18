@@ -9,7 +9,8 @@
 	<!-- Note: FGF tags processed first for FG Classic, and TTF tags processed first for FGU -->
 
 	<!-- Default fonts - REQUIRED -->
-	<font name="defaultstringcontrol" merge="join">
+	<font name="defaultstringcontrol">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="defaultnumbercontrol" merge="join">
@@ -38,34 +39,43 @@
 	</font>
 
 	<!-- Chat fonts - REQUIRED -->
-	<font name="chatfont" merge="join">
+	<font name="chatfont">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#f0f0f0" />
 	</font>
-	<font name="emotefont" merge="join">
+	<font name="emotefont">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#f0fff0" />
 	</font>
-	<font name="narratorfont" merge="join">
+	<font name="narratorfont">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fff0f0" />
 	</font>
-	<font name="systemfont" merge="join">
+	<font name="systemfont">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="msgfont" merge="join">
-		<color value="#f0f0ff" />
+	<font name="msgfont">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<color value="#000" />
 	</font>
-	<font name="oocfont" merge="join">
+	<font name="oocfont">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#a2b3cf" />
 	</font>
 
 	<!-- Chat fonts -->
-	<font name="chatnpcfont" merge="join">
+	<font name="chatnpcfont">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#a2b3cf" />
 	</font>
-	<font name="chatgmfont" merge="join">
-		<color value="#ffffff" />
+	<font name="chatgmfont">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<color value="#000" />
 	</font>
-	<font name="whisperfont" merge="join">
-		<color value="#dddddd" />
+	<font name="whisperfont">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<color value="#315" />
 	</font>
 
 	<!-- Radial menus and character list -->
@@ -85,7 +95,8 @@
 	</font>
 
 	<!-- Hot keys -->
-	<font name="hotkey" merge="join">
+	<font name="hotkey">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="FFFFFF" />
 		<shadow offset="1,1" color="000000" />
 	</font>
@@ -100,7 +111,8 @@
 
 	<!-- Windows -->
 	<font name="windowtitle">
-	<ttf file="graphics/fonts/AlegreyaSansSC-Bold.ttf" name="Alegreya Sans SC Bold" size="26" />
+<!--		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="26" />-->
+		<ttf file="graphics/fonts/AlegreyaSansSC-Bold.ttf" name="Alegreya Sans SC Bold" size="26" />
 		<color value="#fdfdfd" />
 		<shadow offset="1,1" color="#808080" />
 	</font>
@@ -109,30 +121,38 @@
 	</font> -->
 
 	<!-- Formatted text fields -->
-	<font name="reference-h" merge="join">
+	<font name="reference-h">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#aeb9cf" />
 	</font>
-	<font name="reference-r" merge="join">
+	<font name="reference-r">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="reference-i" merge="join">
+	<font name="reference-i">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="reference-b" merge="join">
+	<font name="reference-b">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="reference-bi" merge="join">
+	<font name="reference-bi">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="reference-b-large" merge="join">
+	<font name="reference-b-large">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fefefe" />
 	</font>
 
 	<!-- Standard text fields -->
-	<font name="sheetlabel" merge="join">
+	<font name="sheetlabel">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="sheettext" merge="join">
+	<font name="sheettext">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
 
@@ -142,32 +162,40 @@
 	</font>
 
 	<!-- Character selection -->
-	<font name="charselecttitle" merge="join">
+	<font name="charselecttitle">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="30" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="charselectbody" merge="join">
+	<font name="charselectbody">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#261A12" />
 	</font>
 
 	<!-- Options -->
-	<font name="optionset" merge="join">
+	<font name="optionset">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="optiontitle" merge="join">
+	<font name="optiontitle">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="optionbody" merge="join">
+	<font name="optionbody">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
 
 	<!-- Tables -->
-	<font name="tablerange" merge="join">
+	<font name="tablerange">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="tableheader" merge="join">
+	<font name="tableheader">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="30" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="tabledata" merge="join">
+	<font name="tabledata">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
 
@@ -195,42 +223,57 @@
 	</font>
 
 	<!-- Characters -->
-	<font name="sheetlabelinline" merge="join">
+	<font name="sheetlabelinline">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="16" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="sheetlabelmini" merge="join">
+	<font name="sheetlabelmini">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="12" />
 		<color value="#fdfdfd" />
 	</font>
 
 	<!-- Reference -->
-	<font name="reference-section" merge="join">
+	<font name="reference-title">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="24" />
+		<color value="000000" />
+	</font>
+	<font name="reference-section">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#3B2C21" />
 	</font>
-	<font name="reference-chapter" merge="join">
+	<font name="reference-chapter">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#3B2C21" />
 	</font>
-	<font name="reference-header" merge="join">
+	<font name="reference-header">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="reference-groupdesc" merge="join">
+	<font name="reference-groupdesc">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#ffffff" />
 	</font>
-	<font name="reference-groupsubdesc" merge="join">
+	<font name="reference-groupsubdesc">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#ffffff" />
 	</font>
-	<font name="reference-page-header" merge="join">
+	<font name="reference-page-header">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
 
 	<!-- Misc -->
-	<font name="list-empty" merge="join">
+	<font name="list-empty">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="button-white" merge="join">
+	<font name="button-white">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#FFFFFF" />
 		<shadow offset="1,1" color="#000000" />
 	</font>
-	<font name="button-white-large" merge="join">
+	<font name="button-white-large">
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
 		<color value="#FFFFFF" />
 		<shadow offset="1,1" color="#000000" />
 	</font>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<!-- 
-  Please see the license.html file included with this distribution for 
+<!--
+  Please see the license.html file included with this distribution for
   attribution and copyright information.
 -->
 
 <root>
 	<!-- Override with new bounds -->
 
-	
+
 	<panel name="dicetower" modes="host,client" merge="join">
 		<anchored height="150" width="150" />
 	</panel>
-	
+
 	<!-- Override with new control bounds -->
 	<windowclass name="dicetower" merge="join">
 		<sizelimits>
