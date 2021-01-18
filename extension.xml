@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="3.0">
+	<announcement text="Greyhawk Theme by Dr. Jess Hendricks" font="emotefont" icon="rulesetlogo_CoreRPG" />
+
+	<properties>
+		<name>Theme: Greyhawk Dark</name>
+		<version>1.0</version>
+		<author>jesshmusic</author>
+		<ruleset>Any</ruleset>
+	</properties>
+
+	<base>
+		
+		<includefile source="graphics/graphics_fonts.xml" />
+		<includefile source="graphics/graphics_frames.xml" />
+		<includefile source="graphics/graphics_icons.xml" />
+		<includefile source="graphics/graphics_portraits.xml" />
+		<includefile source="desktop/desktop_classes.xml" />
+		<script name="theme_fixer" file="scripts/theme_fixer.lua" />
+	</base>
+</root>

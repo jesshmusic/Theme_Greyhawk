@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!--
+  Please see the license.html file included with this distribution for
+  attribution and copyright information.
+-->
+
+<root>
+	<!-- Note: FGF tags processed first for FG Classic, and TTF tags processed first for FGU -->
+
+	<!-- Default fonts - REQUIRED -->
+	<font name="defaultstringcontrol" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="defaultnumbercontrol" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+
+	<!-- Distance font - REQUIRED -->
+	<font name="distancelabel" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+
+	<!-- Dice fonts - REQUIRED -->
+	<font name="diceexpr" version="&gt;=4" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="diemod" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="dieresult" merge="join">
+		<color value="#ffffff" />
+	</font>
+
+	<!-- Drag fonts - REQUIRED -->
+	<font name="draglabel" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+
+	<!-- Chat fonts - REQUIRED -->
+	<font name="chatfont" merge="join">
+		<color value="#f0f0f0" />
+	</font>
+	<font name="emotefont" merge="join">
+		<color value="#f0fff0" />
+	</font>
+	<font name="narratorfont" merge="join">
+		<color value="#fff0f0" />
+	</font>
+	<font name="systemfont" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="msgfont" merge="join">
+		<color value="#f0f0ff" />
+	</font>
+	<font name="oocfont" merge="join">
+		<color value="#a2b3cf" />
+	</font>
+
+	<!-- Chat fonts -->
+	<font name="chatnpcfont" merge="join">
+		<color value="#a2b3cf" />
+	</font>
+	<font name="chatgmfont" merge="join">
+		<color value="#ffffff" />
+	</font>
+	<font name="whisperfont" merge="join">
+		<color value="#dddddd" />
+	</font>
+
+	<!-- Radial menus and character list -->
+	<font name="mini_name" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="mini_name_selected" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+
+	<!-- Identity list -->
+	<font name="idactivefont" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="idinactivefont" merge="join">
+		<color value="#FFFFFF" />
+	</font>
+
+	<!-- Hot keys -->
+	<font name="hotkey" merge="join">
+		<color value="FFFFFF" />
+		<shadow offset="1,1" color="000000" />
+	</font>
+
+	<!-- Modifier stack -->
+	<font name="modcollector" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="modcollectorlabel" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+
+	<!-- Windows -->
+	<font name="windowtitle">
+	<ttf file="graphics/fonts/AlegreyaSansSC-Bold.ttf" name="Alegreya Sans SC Bold" size="26" />
+		<color value="#fdfdfd" />
+		<shadow offset="1,1" color="#808080" />
+	</font>
+<!--	<font name="subwindowtitle" merge="join">
+		<color value="ded1b1" />
+	</font> -->
+
+	<!-- Formatted text fields -->
+	<font name="reference-h" merge="join">
+		<color value="#aeb9cf" />
+	</font>
+	<font name="reference-r" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="reference-i" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="reference-b" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="reference-bi" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="reference-b-large" merge="join">
+		<color value="#fefefe" />
+	</font>
+
+	<!-- Standard text fields -->
+	<font name="sheetlabel" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="sheettext" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+
+	<!-- Number fields -->
+	<font name="sheetnumber" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+
+	<!-- Character selection -->
+	<font name="charselecttitle" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="charselectbody" merge="join">
+		<color value="#261A12" />
+	</font>
+
+	<!-- Options -->
+	<font name="optionset" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="optiontitle" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="optionbody" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+
+	<!-- Tables -->
+	<font name="tablerange" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="tableheader" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="tabledata" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+
+	<!-- Calendar -->
+	<font name="calendarday" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="calendarday-b" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="calendarday-bi" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="calendarbold" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="calendarselecttitle" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="calendarselectbody" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="calendarmessage" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+
+	<!-- Characters -->
+	<font name="sheetlabelinline" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="sheetlabelmini" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+
+	<!-- Reference -->
+	<font name="reference-section" merge="join">
+		<color value="#3B2C21" />
+	</font>
+	<font name="reference-chapter" merge="join">
+		<color value="#3B2C21" />
+	</font>
+	<font name="reference-header" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="reference-groupdesc" merge="join">
+		<color value="#ffffff" />
+	</font>
+	<font name="reference-groupsubdesc" merge="join">
+		<color value="#ffffff" />
+	</font>
+	<font name="reference-page-header" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+
+	<!-- Misc -->
+	<font name="list-empty" merge="join">
+		<color value="#fdfdfd" />
+	</font>
+	<font name="button-white" merge="join">
+		<color value="#FFFFFF" />
+		<shadow offset="1,1" color="#000000" />
+	</font>
+	<font name="button-white-large" merge="join">
+		<color value="#FFFFFF" />
+		<shadow offset="1,1" color="#000000" />
+	</font>
+</root>

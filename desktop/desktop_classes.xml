@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	<!-- Override with new bounds -->
+
+	
+	<panel name="dicetower" modes="host,client" merge="join">
+		<anchored height="150" width="150" />
+	</panel>
+	
+	<!-- Override with new control bounds -->
+	<windowclass name="dicetower" merge="join">
+		<sizelimits>
+			<minimum width="100" height="90" />
+		</sizelimits>
+		<sheetdata>
+			<genericcontrol name="base">
+				<bounds>0,0,150,150</bounds>
+				<droptypes>
+					<type merge="add">attack</type>
+					<type merge="add">damage</type>
+					<type merge="add">heal</type>
+					<type merge="add">init</type>
+					<type merge="add">save</type>
+					<type merge="add">check</type>
+				</droptypes>
+			</genericcontrol>
+		</sheetdata>
+	</windowclass>
+</root>
