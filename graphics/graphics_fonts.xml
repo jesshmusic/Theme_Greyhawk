@@ -10,7 +10,7 @@
 
 	<!-- Default fonts - REQUIRED -->
 	<font name="defaultstringcontrol">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="defaultnumbercontrol" merge="join">
@@ -40,41 +40,41 @@
 
 	<!-- Chat fonts - REQUIRED -->
 	<font name="chatfont">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#f0f0f0" />
 	</font>
 	<font name="emotefont">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#f0fff0" />
 	</font>
 	<font name="narratorfont">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
-		<color value="#fff0f0" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<color value="#000" />
 	</font>
 	<font name="systemfont">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="msgfont">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#000" />
 	</font>
 	<font name="oocfont">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#a2b3cf" />
 	</font>
 
 	<!-- Chat fonts -->
 	<font name="chatnpcfont">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#a2b3cf" />
 	</font>
 	<font name="chatgmfont">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#000" />
 	</font>
 	<font name="whisperfont">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#315" />
 	</font>
 
@@ -96,7 +96,7 @@
 
 	<!-- Hot keys -->
 	<font name="hotkey">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="FFFFFF" />
 		<shadow offset="1,1" color="000000" />
 	</font>
@@ -111,48 +111,45 @@
 
 	<!-- Windows -->
 	<font name="windowtitle">
-<!--		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="26" />-->
-		<ttf file="graphics/fonts/AlegreyaSansSC-Bold.ttf" name="Alegreya Sans SC Bold" size="26" />
+		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina" size="26" />
+<!--		<ttf file="graphics/fonts/AlegreyaSansSC-Bold.ttf" name="Alegreya Sans SC Bold" size="26" />-->
 		<color value="#fdfdfd" />
 		<shadow offset="1,1" color="#808080" />
 	</font>
-<!--	<font name="subwindowtitle" merge="join">
-		<color value="ded1b1" />
-	</font> -->
 
 	<!-- Formatted text fields -->
 	<font name="reference-h">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="24" />
 		<color value="#aeb9cf" />
 	</font>
 	<font name="reference-r">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="reference-i">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Italic.ttf" name="Caudex Italic" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="reference-b">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Bold.ttf" name="Caudex Bold" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="reference-bi">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-BoldItalic.ttf" name="Caudex BoldItalic" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="reference-b-large">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Bold.ttf" name="Caudex Bold" size="20" />
 		<color value="#fefefe" />
 	</font>
 
 	<!-- Standard text fields -->
 	<font name="sheetlabel">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="20" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="sheettext">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 
@@ -163,39 +160,39 @@
 
 	<!-- Character selection -->
 	<font name="charselecttitle">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="30" />
+		<ttf file="graphics/fonts/Caudex-Bold.ttf" name="Caudex Bold" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="charselectbody">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#261A12" />
 	</font>
 
 	<!-- Options -->
 	<font name="optionset">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="optiontitle">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="optionbody">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 
 	<!-- Tables -->
 	<font name="tablerange">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="tableheader">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="30" />
+		<ttf file="graphics/fonts/Caudex-Bold.ttf" name="Caudex Bold" size="24" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="tabledata">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 
@@ -224,56 +221,56 @@
 
 	<!-- Characters -->
 	<font name="sheetlabelinline">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="sheetlabelmini">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="12" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="14" />
 		<color value="#fdfdfd" />
 	</font>
 
 	<!-- Reference -->
 	<font name="reference-title">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="24" />
+		<ttf file="graphics/fonts/Caudex-Bold.ttf" name="Caudex Bold" size="20" />
 		<color value="000000" />
 	</font>
 	<font name="reference-section">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#3B2C21" />
 	</font>
 	<font name="reference-chapter">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#3B2C21" />
 	</font>
 	<font name="reference-header">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="reference-groupdesc">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#ffffff" />
 	</font>
 	<font name="reference-groupsubdesc">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#ffffff" />
 	</font>
 	<font name="reference-page-header">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Bold.ttf" name="Caudex Bold" size="20" />
 		<color value="#fdfdfd" />
 	</font>
 
 	<!-- Misc -->
 	<font name="list-empty">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="button-white">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#FFFFFF" />
 		<shadow offset="1,1" color="#000000" />
 	</font>
 	<font name="button-white-large">
-		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina:wght@300" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#FFFFFF" />
 		<shadow offset="1,1" color="#000000" />
 	</font>
