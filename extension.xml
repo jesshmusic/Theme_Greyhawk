@@ -8,10 +8,11 @@
 		<version>1.0</version>
 		<author>jesshmusic</author>
 		<ruleset>Any</ruleset>
+		<loadorder>50</loadorder>
 	</properties>
 
 	<base>
-		
+
 		<includefile source="graphics/graphics_fonts.xml" />
 		<includefile source="graphics/graphics_frames.xml" />
 		<includefile source="graphics/graphics_icons.xml" />
