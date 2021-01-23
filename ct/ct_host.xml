@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+
+  <windowclass name="ct_entry" merge="join">
+    <link_ctentry name="link">
+      <anchored merge="replace" to="rightanchor" width="25" height="25">
+        <top relation="relative" offset="-8" />
+        <right anchor="left" relation="relative" offset="-8" />
+      </anchored>
+    </link_ctentry>
+  </windowclass>
+</root>

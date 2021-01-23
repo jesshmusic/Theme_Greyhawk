@@ -10,11 +10,11 @@
 
 	<!-- Default fonts - REQUIRED -->
 	<font name="defaultstringcontrol">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="20" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="defaultnumbercontrol">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="20" />
 		<color value="#fdfdfd" />
 	</font>
 
@@ -41,41 +41,41 @@
 
 	<!-- Chat fonts - REQUIRED -->
 	<font name="chatfont">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#f0f0f0" />
 	</font>
 	<font name="emotefont">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#f0fff0" />
 	</font>
 	<font name="narratorfont">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#000" />
 	</font>
 	<font name="systemfont">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="msgfont">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#000" />
 	</font>
 	<font name="oocfont">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#a2b3cf" />
 	</font>
 
 	<!-- Chat fonts -->
 	<font name="chatnpcfont">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#a2b3cf" />
 	</font>
 	<font name="chatgmfont">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#000" />
 	</font>
 	<font name="whisperfont">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#315" />
 	</font>
 
@@ -97,7 +97,7 @@
 
 	<!-- Hot keys -->
 	<font name="hotkey">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="20" />
 		<color value="FFFFFF" />
 		<shadow offset="1,1" color="000000" />
 	</font>
@@ -123,19 +123,19 @@
 		<color value="#aeb9cf" />
 	</font>
 	<font name="reference-r">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="reference-i">
-		<ttf file="graphics/fonts/Caudex-Italic.ttf" name="Caudex Italic" size="16" />
+		<ttf file="graphics/fonts/Caudex-Italic.ttf" name="Caudex Italic" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="reference-b">
-		<ttf file="graphics/fonts/Caudex-Bold.ttf" name="Caudex Bold" size="16" />
+		<ttf file="graphics/fonts/Caudex-Bold.ttf" name="Caudex Bold" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="reference-bi">
-		<ttf file="graphics/fonts/Caudex-BoldItalic.ttf" name="Caudex BoldItalic" size="16" />
+		<ttf file="graphics/fonts/Caudex-BoldItalic.ttf" name="Caudex BoldItalic" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="reference-b-large">
@@ -145,11 +145,11 @@
 
 	<!-- Standard text fields -->
 	<font name="sheetlabel">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="20" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="sheettext">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="20" />
 		<color value="#fdfdfd" />
 	</font>
 
@@ -160,31 +160,31 @@
 
 	<!-- Character selection -->
 	<font name="charselecttitle">
-		<ttf file="graphics/fonts/Caudex-Bold.ttf" name="Caudex Bold" size="18" />
+		<ttf file="graphics/fonts/Caudex-Bold.ttf" name="Caudex Bold" size="20" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="charselectbody">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#261A12" />
 	</font>
 
 	<!-- Options -->
 	<font name="optionset">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="optiontitle">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="optionbody">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 
 	<!-- Tables -->
 	<font name="tablerange">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="tableheader">
@@ -192,7 +192,7 @@
 		<color value="#fdfdfd" />
 	</font>
 	<font name="tabledata">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 
@@ -221,7 +221,7 @@
 
 	<!-- Characters -->
 	<font name="sheetlabelinline">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="sheetlabelmini">
@@ -229,7 +229,7 @@
 		<color value="#fdfdfd" />
 	</font>
 	<font name="damageview">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#ffffff" />
 	</font>
 
@@ -239,23 +239,23 @@
 		<color value="000000" />
 	</font>
 	<font name="reference-section">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#3B2C21" />
 	</font>
 	<font name="reference-chapter">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#3B2C21" />
 	</font>
 	<font name="reference-header">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="reference-groupdesc">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#ffffff" />
 	</font>
 	<font name="reference-groupsubdesc">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#ffffff" />
 	</font>
 	<font name="reference-page-header">
@@ -265,16 +265,16 @@
 
 	<!-- Misc -->
 	<font name="list-empty">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="button-white">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#FFFFFF" />
 		<shadow offset="1,1" color="#000000" />
 	</font>
 	<font name="button-white-large">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#FFFFFF" />
 		<shadow offset="1,1" color="#000000" />
 	</font>

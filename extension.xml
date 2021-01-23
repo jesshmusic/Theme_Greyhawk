@@ -22,10 +22,8 @@
 
 		<!-- Join Character Sheet -->
 		<includefile source="campaign/record_char.xml" />
-<!--		<includefile source="campaign/template_campaign.xml" />-->
-<!--		<includefile source="campaign/template_char.xml" />-->
-		<includefile source="campaign/template_ct.xml" />
-		<includefile source="campaign/template_power.xml" />
+		<includefile source="ct/ct_host.xml" />
+		<includefile source="campaign/templates.xml" />
 		<includefile source="campaign/record_char_weapon.xml" />
 	</base>
 </root>

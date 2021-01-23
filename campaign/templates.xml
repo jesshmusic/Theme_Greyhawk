@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!--
+  Please see the license.html file included with this distribution for
+  attribution and copyright information.
+-->
+
+<root>
+  <template name="button_grouptype" merge="join">
+    <button_iconcycler name="castertype">
+      <anchored width="30" height="30" />
+      <parameters>
+        <defaulticon>power_weapon</defaulticon>
+        <defaulttooltipres>power_tooltip_grouptypeability</defaulttooltipres>
+        <icons>power_casterprep</icons>
+        <tooltipsres>power_tooltip_grouptypeprep</tooltipsres>
+        <values>memorization</values>
+      </parameters>
+      <script>
+        function onValueChanged()
+        if window.onCasterTypeChanged then
+        window.onCasterTypeChanged();
+        end
+        end
+      </script>
+    </button_iconcycler>
+  </template>
+  <template name="icon_usepower" merge="join">
+    <buttoncontrol>
+      <anchored width="30" height="30" />
+      <icon normal="usepower" />
+      <script>
+        function onButtonPress()
+        window.parentcontrol.window.usePower(false);
+        end
+      </script>
+    </buttoncontrol>
+  </template>
+  <template name="button_ct_menu" merge="join">
+    <metalplate>
+      <bounds>120,-45,57,26</bounds>
+      <tooltip textres="ct_tooltip_menu" />
+      <static textres="ct_label_menu" />
+      <script file="ct/scripts/ct_menu.lua" />
+    </metalplate>
+  </template>
+
+  <template name="button_ct_nextround" merge="join">
+    <buttoncontrol>
+      <anchored width="30" height="28">
+        <bottom offset="-20" />
+        <right parent="contentanchor" />
+      </anchored>
+      <icon normal="button_ctnextround" pressed="button_ctnextround_down" />
+      <tooltip textres="ct_tooltip_nextround" />
+      <script>
+        function onInit()
+        registerMenuItem(Interface.getString("ct_menu_round5"), "num5", 4);
+        registerMenuItem(Interface.getString("ct_menu_round10"), "num10", 5);
+        registerMenuItem(Interface.getString("ct_menu_round15"), "num15", 6);
+        registerMenuItem(Interface.getString("ct_menu_round20"), "num20", 7);
+        end
+
+        function onMenuSelection(selection)
+        if selection == 4 then
+        CombatManager.nextRound(5);
+        elseif selection == 5 then
+        CombatManager.nextRound(10);
+        elseif selection == 6 then
+        CombatManager.nextRound(15);
+        elseif selection == 7 then
+        CombatManager.nextRound(20);
+        end
+        end
+
+        function onButtonPress()
+        CombatManager.nextRound(1);
+        end
+
+        function onDragStart(button, x, y, draginfo)
+        draginfo.setType("combattrackernextround");
+        draginfo.setIcon("button_ctnextround");
+
+        return true;
+        end
+      </script>
+    </buttoncontrol>
+  </template>
+
+  <template name="resize" merge="join">
+    <genericcontrol>
+      <anchored height="18" width="18">
+        <right />
+        <bottom />
+      </anchored>
+      <icon>window_resize</icon>
+      <disabled />
+    </genericcontrol>
+  </template>
+</root>
