@@ -352,7 +352,7 @@
 	<framedef name="utilitybox">
 		<bitmap file="graphics/frames/utilitybox.png" />
 		<offset>22,22,22,22</offset>
-		<insideoffset>0,0,10,10</insideoffset>
+		<insideoffset>0,0,0,0</insideoffset>
 	</framedef>
 	<framedef name="utilitybox2">
 		<bitmap file="graphics/frames/utilitybox2.png" />
@@ -491,7 +491,7 @@
 	<framedef name="charsheet">
 		<bitmap file="graphics/frames/charsheet.png" />
 		<offset>25,40,25,25</offset>
-		<insideoffset>0,0,7,7</insideoffset>
+		<insideoffset>0,0,0,0</insideoffset>
 	</framedef>
 	<framedef name="charsheethelper">
 		<bitmap file="graphics/frames/charsheet.png" />

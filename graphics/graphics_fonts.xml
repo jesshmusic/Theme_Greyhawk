@@ -13,7 +13,8 @@
 		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="defaultnumbercontrol" merge="join">
+	<font name="defaultnumbercontrol">
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 
@@ -112,7 +113,6 @@
 	<!-- Windows -->
 	<font name="windowtitle">
 		<ttf file="graphics/fonts/Texturina.ttf" name="Texturina" size="26" />
-<!--		<ttf file="graphics/fonts/AlegreyaSansSC-Bold.ttf" name="Alegreya Sans SC Bold" size="26" />-->
 		<color value="#fdfdfd" />
 		<shadow offset="1,1" color="#808080" />
 	</font>
@@ -145,11 +145,11 @@
 
 	<!-- Standard text fields -->
 	<font name="sheetlabel">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="20" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 	<font name="sheettext">
-		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
 
@@ -227,6 +227,10 @@
 	<font name="sheetlabelmini">
 		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="14" />
 		<color value="#fdfdfd" />
+	</font>
+	<font name="damageview">
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="16" />
+		<color value="#ffffff" />
 	</font>
 
 	<!-- Reference -->

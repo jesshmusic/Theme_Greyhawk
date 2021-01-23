@@ -547,4 +547,25 @@
 	<icon name="icon_freeaction" file="graphics/icons/Action - Free - Alpha BG - 20x20.png" />
 	<icon name="icon_2actions" file="graphics/icons/Action - Two Actions - Alpha BG - 31x20.png" />
 	<icon name="icon_3actions" file="graphics/icons/Action - Three Actions - Alpha BG - 41x20.png" />
+
+	<!-- Powers -->
+	<icon name="power_weapon" file="graphics/icons/power_weapon.png" />
+	<icon name="power_casterspontaneous" file="graphics/icons/power_casterspontaneous.png" />
+	<icon name="power_casterprep" file="graphics/icons/power_casterprep.png" />
+
+	<!-- Rolls -->
+	<icon name="roll_cast" file="graphics/icons/roll_cast.png" />
+	<icon name="roll_attack" file="graphics/icons/roll_attack.png" />
+	<icon name="roll_attack_miss" file="graphics/icons/roll_attack_miss.png" />
+	<icon name="roll_attack_hit" file="graphics/icons/roll_attack_hit.png" />
+	<icon name="roll_attack_crit" file="graphics/icons/roll_attack_crit.png" />
+	<icon name="roll_damage" file="graphics/icons/roll_damage.png" />
+	<icon name="roll_heal" file="graphics/icons/roll_heal.png" />
+
+	<!-- Powers -->
+	<icon name="usepower" file="graphics/icons/usepower.png" />
+	<icon name="spell_cast" file="graphics/icons/spell_cast.png" />
+	<icon name="spell_damage" file="graphics/icons/spell_damage.png" />
+	<icon name="spell_heal" file="graphics/icons/spell_heal.png" />
+	<icon name="spell_effect" file="graphics/icons/spell_effect.png" />
 </root>

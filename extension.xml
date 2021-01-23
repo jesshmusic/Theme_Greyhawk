@@ -19,5 +19,13 @@
 		<includefile source="graphics/graphics_portraits.xml" />
 		<includefile source="desktop/desktop_classes.xml" />
 		<script name="theme_fixer" file="scripts/theme_fixer.lua" />
+
+		<!-- Join Character Sheet -->
+		<includefile source="campaign/record_char.xml" />
+<!--		<includefile source="campaign/template_campaign.xml" />-->
+<!--		<includefile source="campaign/template_char.xml" />-->
+		<includefile source="campaign/template_ct.xml" />
+		<includefile source="campaign/template_power.xml" />
+		<includefile source="campaign/record_char_weapon.xml" />
 	</base>
 </root>
