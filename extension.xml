@@ -13,6 +13,7 @@
 
 	<base>
 
+		<script name="ColorManagerCustom" file="scripts/manager_color_custom.lua" />
 		<includefile source="graphics/graphics_fonts.xml" />
 		<includefile source="graphics/graphics_frames.xml" />
 		<includefile source="graphics/graphics_icons.xml" />
