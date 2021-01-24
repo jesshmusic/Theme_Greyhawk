@@ -238,11 +238,11 @@
 	<!-- Dice Tower -->
 	<framedef name="dicetower_normal">
 		<bitmap>graphics/frames/dicetower_normal.png</bitmap>
-		<offset>0,0,250,250</offset>
+		<middle>0,0,150,150</middle>
 	</framedef>
 	<framedef name="dicetower_drop">
 		<bitmap>graphics/frames/dicetower_drop.png</bitmap>
-		<offset>0,0,250,250</offset>
+		<middle>0,0,150,150</middle>
 	</framedef>
 
 	<!-- Hot key bar -->

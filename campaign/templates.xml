@@ -55,33 +55,33 @@
       <tooltip textres="ct_tooltip_nextround" />
       <script>
         function onInit()
-        registerMenuItem(Interface.getString("ct_menu_round5"), "num5", 4);
-        registerMenuItem(Interface.getString("ct_menu_round10"), "num10", 5);
-        registerMenuItem(Interface.getString("ct_menu_round15"), "num15", 6);
-        registerMenuItem(Interface.getString("ct_menu_round20"), "num20", 7);
+          registerMenuItem(Interface.getString("ct_menu_round5"), "num5", 4);
+          registerMenuItem(Interface.getString("ct_menu_round10"), "num10", 5);
+          registerMenuItem(Interface.getString("ct_menu_round15"), "num15", 6);
+          registerMenuItem(Interface.getString("ct_menu_round20"), "num20", 7);
         end
 
         function onMenuSelection(selection)
-        if selection == 4 then
-        CombatManager.nextRound(5);
-        elseif selection == 5 then
-        CombatManager.nextRound(10);
-        elseif selection == 6 then
-        CombatManager.nextRound(15);
-        elseif selection == 7 then
-        CombatManager.nextRound(20);
-        end
+          if selection == 4 then
+            CombatManager.nextRound(5);
+          elseif selection == 5 then
+            CombatManager.nextRound(10);
+          elseif selection == 6 then
+            CombatManager.nextRound(15);
+          elseif selection == 7 then
+            CombatManager.nextRound(20);
+          end
         end
 
         function onButtonPress()
-        CombatManager.nextRound(1);
+          CombatManager.nextRound(1);
         end
 
         function onDragStart(button, x, y, draginfo)
-        draginfo.setType("combattrackernextround");
-        draginfo.setIcon("button_ctnextround");
+          draginfo.setType("combattrackernextround");
+          draginfo.setIcon("button_ctnextround");
 
-        return true;
+          return true;
         end
       </script>
     </buttoncontrol>
