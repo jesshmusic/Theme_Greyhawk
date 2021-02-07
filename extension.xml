@@ -20,6 +20,7 @@
 		<includefile source="graphics/graphics_portraits.xml" />
 		<includefile source="desktop/desktop_classes.xml" />
 		<script name="theme_fixer" file="scripts/theme_fixer.lua" />
+		<script name="TokenMangerCustom" file="scripts/manager_token_custom.lua" />
 
 		<!-- Join Character Sheet -->
 		<includefile source="campaign/record_char.xml" />

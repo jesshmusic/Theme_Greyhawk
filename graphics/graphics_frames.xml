@@ -539,7 +539,7 @@
 	<!-- Tokens -->
 	<framedef name="tokennumber">
 		<bitmap file="graphics/frames/tokennumber.png" />
-		<offset>6,6,6,6</offset>
+		<offset>10,10,10,10</offset>
 	</framedef>
 
 	<!-- Misc frames -->

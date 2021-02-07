@@ -68,7 +68,7 @@
 	<!-- Chat fonts -->
 	<font name="chatnpcfont">
 		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
-		<color value="#a2b3cf" />
+		<color value="#000" />
 	</font>
 	<font name="chatgmfont">
 		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
@@ -146,11 +146,15 @@
 	<!-- Standard text fields -->
 	<font name="sheetlabel">
 		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
-		<color value="#fdfdfd" />
+		<color value="#ffffff" />
 	</font>
 	<font name="sheettext">
 		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
+	</font>
+	<font name="sheetlabellarge">
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="24" />
+		<color value="#ffffff" />
 	</font>
 
 	<!-- Number fields -->
