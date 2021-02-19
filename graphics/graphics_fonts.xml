@@ -88,10 +88,12 @@
 	</font>
 
 	<!-- Identity list -->
-	<font name="idactivefont" merge="join">
+	<font name="idactivefont">
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#fdfdfd" />
 	</font>
-	<font name="idinactivefont" merge="join">
+	<font name="idinactivefont">
+		<ttf file="graphics/fonts/Caudex-Regular.ttf" name="Caudex Regular" size="18" />
 		<color value="#FFFFFF" />
 	</font>
 
