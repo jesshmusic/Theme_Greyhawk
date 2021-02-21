@@ -563,7 +563,6 @@
 	<icon name="roll_heal" file="graphics/icons/roll_heal.png" />
 
 	<!-- Powers -->
-	<icon name="usepower" file="graphics/icons/usepower.png" />
 	<icon name="spell_cast" file="graphics/icons/spell_cast.png" />
 	<icon name="spell_damage" file="graphics/icons/spell_damage.png" />
 	<icon name="spell_heal" file="graphics/icons/spell_heal.png" />
